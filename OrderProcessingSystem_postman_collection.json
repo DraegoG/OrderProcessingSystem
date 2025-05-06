@@ -1,0 +1,49 @@
+{
+  "info": {
+    "name": "OrderProcessingSystem",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "bruno",
+      "event": []
+    },
+    {
+      "name": "Generate order",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "description": "",
+        "url": {
+          "raw": "http://localhost:9091/orders",
+          "host": [
+            "localhost"
+          ],
+          "path": [],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "Fetch orders",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "description": "",
+        "url": {
+          "raw": "http://localhost:9091/orders",
+          "host": [
+            "localhost"
+          ],
+          "path": [],
+          "query": [],
+          "variable": []
+        }
+      }
+    }
+  ],
+  "variable": []
+}
